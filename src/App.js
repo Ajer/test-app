@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import img from './images/s-product-3.jpg'
+/* import logo from './logo.svg';
+import img from './images/s-product-3.jpg' */
 import Title from './components/Title';
 import './App.css';
 import MenuItems from './components/MenuItems';
@@ -26,10 +26,10 @@ function App() {
       <h1>Hello here is {name}</h1>
       <Title />
       <MenuItems />
-      <h2>{name=='John'?'Yes':'No'}</h2>
+      <h2>{name==='John'?'Yes':'No'}</h2>
       {/* <img src={url}></img> */}
       <br/>
-      <img src={imageUrl}></img>
+      <img src={imageUrl} alt=""></img>
     </div>
   );
 }

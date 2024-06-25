@@ -1,5 +1,5 @@
-/* import logo from './logo.svg';
-import img from './images/s-product-3.jpg' */
+/* import logo from './logo.svg';*/
+import img from './images/s-product-3.jpg'
 import Title from './components/Title';
 import './App.css';
 import MenuItems from './components/MenuItems';

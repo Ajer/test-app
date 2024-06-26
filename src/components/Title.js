@@ -1,11 +1,13 @@
-function Title()
+function Title(props)
  {
   return(
     <div>
-       <h1>React is fun from func2</h1>
-       <h2>Test</h2>
+       <h1 style={colorStyle}>{props.title}</h1>
+       
     </div>
   );
 } 
+
+let colorStyle= {color:'red',backgroundColor:'yellow'};
 
 export default Title;

@@ -17,10 +17,14 @@ import MyMenu from './components/MyMenu';
 function App() {
   const name = "John";
   const imageUrl = "https://picsum.photos/seed/picsum/400/400";
+  let str = "Om oss";
+
+  console.log(process.env.REACT_APP_OTHER);
+
   return (
     <div className="App">
       <h1>Hello here is {name}</h1> 
-      <MenuItems item1={"Hem"} item2="Om Oss" item3="produkter"/>
+      <MenuItems item1={"Hem"} item2={str} item3="produkter"/>
 
       <MyMenu />
 
